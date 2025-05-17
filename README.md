@@ -26,11 +26,13 @@ A simple Node.js + TypeScript REST API for managing books, with CSV bulk import.
    PORT=5000
    
 4. **Run**
+   ```bash
    npm run dev
-
+   
    The server will listen on http://localhost:<PORT>
 
 6. **Test**
+   ```bash
    npm test
 
    Manual: Import the provided Postman collection book-api.postman_collection.json and run against http://localhost:<PORT>.
