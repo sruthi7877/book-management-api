@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "dist/app.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn src/server.ts",
-    "build": "tsc",
-    "start": "node dist/server.js",
-    "test": "jest"
+  "build": "tsc",
+  "start": "node dist/app.js", 
+  "dev": "ts-node-dev --respawn src/app.ts",
+  "test": "jest"
   },
   "dependencies": {
     "dotenv": "^16.5.0",
